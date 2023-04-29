@@ -70,3 +70,68 @@ print("2" + "2") # => 22
 print("spam" * 3) # => spamspamspam
 print(4 * "2") # => 2222
 ```
+
+## Variables
+- A variable lets you store a value by assigning it to a name. The name can be used to refer to the value later in the program.
+```
+user = "James"
+```
+- In the example above we assigned string "James" to a variable called ``user``.
+
+### Variable Names
+- Naming your variables is pretty flexible. You can use `letters`, `numbers`, and `underscores` in variable names. But you can’t use special symbols, or start the name with a number.
+
+### Working With Variables
+```
+x = 7
+print(x) # => 7
+
+print(x + 3) # => 10
+print(x) # => 7
+```
+- Variables can be reassigned as many times as you want. Like this:
+```
+x = 123.456
+print(x) # => 123.456
+
+x = "This is a string"
+print(x + "!") # => This is a string!
+```
+
+### Taking User Input
+#### input()
+- The input function prompts the user for input, and returns what they enter as a `string`. Like this:
+```
+x = input()
+print(x)
+
+name = input("Enter your name: ")
+print("Hello, " + name)
+```
+### Working with Input
+- int() - converts out input which is a string to integer
+- You can convert to float using the float() function.
+```
+age = int(input())
+print(age)
+
+age = 42
+print("His age is " + str(age))
+```
+
+### In-Place Operators
+- `In-place` operators let you write code like `'x = x + 3'` more concisely, as `'x += 3'`.
+```
+x = 2
+print(x) # => 2
+
+x += 3
+print(x) # => 5
+```
+```
+x = "spam"
+print(x) # => spam
+
+x += "eggs"
+print(x) # => spameggs
+```
