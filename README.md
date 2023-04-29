@@ -1,137 +1,14 @@
 # Python
 <img src="./images/python.jpg" />
 
-## Hello world
+## Memory & Variables
+- Computer programs use `variables` to remember important information, like items in a shopping cart, prices and discounts.
+- The line of code below tells the computer to store information in a variable called item.
+- Variables have a name and a value. To create a variable, you just need to give it a name, then connect the name with the value you need to store using the equal sign =.
 ```
-print("Hello world)
-```
-
-## Simple Operations
-```
-print(2 + 2)
-print(5 + 4 - 3)
-print(10 / 2)
-print(2 * (3 + 4))
-```
-- Using a single slash to divide numbers produces a decimal (or float, as it’s known in programming)
-
-## Quotient & Remainder
-### Quotient
-#### floor division
-- ``Quotient`` just means the quantity produced by the division of two numbers.
-- ``Floor division`` is done using two forward slashes and is used to determine the ``quotient`` of a division.
-```
-print(20 // 6) # => 3
-```
-
-### Remainder
-#### modulo operator
-- ``modulo operator``–which is carried out with a percent symbol (%)–to get the remainder of a given division.
-```
-print(20 % 6) # => 2
-print(1.25 % 0.5) # => 0.25
-```
-## Strings
-- We can create a string by entering text between two single or double quotation marks. Like this:
-```
-print("python is fun!")
-print('always look on the bright side of life')
-print('Brian\'s mother: He\'s not an angel. He\'s a very naughty boy!')
-```
-- The delimiter ``(" or ')`` used for a string doesn't affect how it behaves in any way.
-
-### Newlines
-- To create a new line we use \n.
-```
-print("One \nTwo \nThree")
-```
-- Based on what we just learned, can you guess how we represent tab? That’s right, it’s ``\t``.
-- ``\n`` is useful, but it can be a bit of a pain if we’re trying to format lots of multiline text.
-
-- There’s another way though! Newlines are automatically added for strings created using ``three quotes``.
-For example:
-
-```
-print("""This
-is a
-multiline
-text""")
-```
-
-### String Operations
-### concatenation
-```
-print("Spam" + "eggs") # => Spameggs
-print("2" + "2") # => 22
-```
-
-- Multiplying a ``string`` by an ``integer``, produces a repeated version of the original string. Like this:
-```
-print("spam" * 3) # => spamspamspam
-print(4 * "2") # => 2222
-```
-
-## Variables
-- A variable lets you store a value by assigning it to a name. The name can be used to refer to the value later in the program.
-```
-user = "James"
-```
-- In the example above we assigned string "James" to a variable called ``user``.
-
-### Variable Names
-- Naming your variables is pretty flexible. You can use `letters`, `numbers`, and `underscores` in variable names. But you can’t use special symbols, or start the name with a number.
-
-### Working With Variables
-```
-x = 7
-print(x) # => 7
-
-print(x + 3) # => 10
-print(x) # => 7
-```
-- Variables can be reassigned as many times as you want. Like this:
-```
-x = 123.456
-print(x) # => 123.456
-
-x = "This is a string"
-print(x + "!") # => This is a string!
-```
-
-### Taking User Input
-#### input()
-- The input function prompts the user for input, and returns what they enter as a `string`. Like this:
-```
-x = input()
-print(x)
-
-name = input("Enter your name: ")
-print("Hello, " + name)
-```
-### Working with Input
-- int() - converts out input which is a string to integer
-- You can convert to float using the float() function.
-```
-age = int(input())
-print(age)
-
-age = 42
-print("His age is " + str(age))
-```
-
-### In-Place Operators
-- `In-place` operators let you write code like `'x = x + 3'` more concisely, as `'x += 3'`.
-```
-x = 2
-print(x) # => 2
-
-x += 3
-print(x) # => 5
-```
-```
-x = "spam"
-print(x) # => spam
-
-x += "eggs"
-print(x) # => spameggs
+item = "bike"
+company = "Google"
+device = "Ipad"
+message = "Level Up"
+job = "designer"
 ```
