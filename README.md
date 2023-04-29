@@ -39,3 +39,21 @@ print('always look on the bright side of life')
 print('Brian\'s mother: He\'s not an angel. He\'s a very naughty boy!')
 ```
 - The delimiter ``(" or ')`` used for a string doesn't affect how it behaves in any way.
+
+### Newlines
+- To create a new line we use \n.
+```
+print("One \nTwo \nThree")
+```
+- Based on what we just learned, can you guess how we represent tab? That’s right, it’s ``\t``.
+- ``\n`` is useful, but it can be a bit of a pain if we’re trying to format lots of multiline text.
+
+- There’s another way though! Newlines are automatically added for strings created using ``three quotes``.
+For example:
+
+```
+print("""This
+is a
+multiline
+text""")
+```
