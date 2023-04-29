@@ -48,3 +48,29 @@ print(10 - 5)
 print(5 * 3)
 print(10 / 2)
 ```
+
+## Working with Variables
+🌟 You can run calculations using the values stored in variables
+
+🌟 You can store the result of a calculation in a variable
+
+🌟 Updating the value of a variable is called reassigning a variable.
+```
+size = "medium"
+age = 34
+
+price = 150
+print(price)
+
+budget = 20
+print(budget + 10)
+
+price = 5
+amount = 3
+print(price * amount)
+
+# reasigning a variable
+points = 35
+points = 45
+print(points)
+```
