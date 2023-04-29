@@ -74,3 +74,19 @@ points = 35
 points = 45
 print(points)
 ```
+
+## Debugging
+<img src="./images/debugging.png" style="width:300px" />
+
+🌟 Errors in code are known as bugs
+
+🌟 Code is executed line by line from top to bottom
+
+🌟 Code execution is interrupted by bugs.
+
+## Standards and Best Practices
+🌟 You can add comments to your code with the hash symbol #
+
+🌟 Python is a `case-sensitive` language
+
+🌟 `Snake case` is the best practice when creating multi-word variable names.
