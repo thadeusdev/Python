@@ -111,3 +111,37 @@ salary = 900
 new_salary = salary + 200
 print(new_salary)
 ```
+
+## Inputs and Outputs
+🌟 inputs and outputs help machines communicate with the outside world
+
+🌟 the input() instruction allows the user to enter a value into your program
+
+🌟 the print() instruction is used to generate an output.
+```
+message = input()
+print(message)
+
+user_entry = input() # asks the user for a value that gets stored in a variable called user_entry
+```
+
+## Data Types
+🌟 `data types` tell computers how to store, process and operate different types of data
+
+🌟 `string` is the data type for text
+
+🌟 `integer` and `float` are data types for numbers.
+```
+# String - surrounded by quotation marks
+item = "Nintendo"
+
+# Integers - numbers (positive, negative or zero)
+item = 2
+
+# Float - numbers with decimal places (they can be positive or negative)
+item = 3.14
+variable = 5/2 # stores 2.5
+
+print(3 + 5) # => 8
+print("Iron" + "Man") # => IronMan
+```
