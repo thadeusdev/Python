@@ -31,3 +31,11 @@ print(20 // 6) # => 3
 print(20 % 6) # => 2
 print(1.25 % 0.5) # => 0.25
 ```
+## Strings
+- We can create a string by entering text between two single or double quotation marks. Like this:
+```
+print("python is fun!")
+print('always look on the bright side of life')
+print('Brian\'s mother: He\'s not an angel. He\'s a very naughty boy!')
+```
+- The delimiter ``(" or ')`` used for a string doesn't affect how it behaves in any way.
