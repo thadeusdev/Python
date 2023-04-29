@@ -1,5 +1,5 @@
 # Python
-<img src="./images/python.jpg" />
+<img src="./images/python.jpg" style="border-radius:10px" />
 
 ## Writing Code
 - 🌟 humans use code to give `instructions` to machines
