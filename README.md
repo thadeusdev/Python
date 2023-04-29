@@ -90,3 +90,24 @@ print(points)
 🌟 Python is a `case-sensitive` language
 
 🌟 `Snake case` is the best practice when creating multi-word variable names.
+
+## Applying Best Practices
+🌟 spaces are not allowed in variable names
+
+🌟 a variable name cannot start with a number
+
+🌟 best practices can help you avoid errors.
+```
+account_balance = 350
+print(account_balance)
+
+format = "mp3"
+print(format)
+
+device_type = "Ipad"
+print(device_type)
+
+salary = 900
+new_salary = salary + 200
+print(new_salary)
+```
