@@ -1,6 +1,13 @@
 # Python
 <img src="./images/python.jpg" />
 
+## Writing Code
+- 🌟 humans use code to give `instructions` to machines
+- 🌟 the `print()` instruction displays a message on the screen.
+```
+print("Welcome")
+```
+
 ## Memory & Variables
 - Computer programs use `variables` to remember important information, like items in a shopping cart, prices and discounts.
 - The line of code below tells the computer to store information in a variable called item.
