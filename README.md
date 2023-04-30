@@ -194,3 +194,34 @@ print(50 > 100)
 print(type(5 < 9))
 print(type(50 > 100))
 ```
+
+## Logical Operations
+🌟 take multiple Boolean values as input
+
+🌟 produce a single Boolean value as output
+
+🌟 "and" and "or" are examples of logical operations.
+```
+print(True and False)
+print(False and True)
+print(True or False)
+print(False or True)
+```
+
+## Combining Comparison and Logical Operations
+🌟 You can store boolean values in variables
+
+🌟 You can store the result of logical and comparison operations in variables
+
+🌟 You can combine operations with logical and comparison operators.
+```
+light_on = True
+door_locked = False
+print(light_on or door_locked)
+
+temp = 35
+ac_on = temp > 30
+print(ac_on)
+
+a = (3 > 2) or False
+```
