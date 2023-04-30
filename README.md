@@ -145,3 +145,16 @@ variable = 5/2 # stores 2.5
 print(3 + 5) # => 8
 print("Iron" + "Man") # => IronMan
 ```
+
+## Data Type Checking
+🌟 the `type()` instruction is used to check the data type
+
+🌟 the division of two integers always produces a `float`.
+```
+city = "Berlin" #stores a string
+age = 42 #stores an integer
+balance = 830.29 #stores a float
+print(type(city)) #outputs <class 'str'>
+print(type(age)) #outputs <class 'int'>
+print(type(balance)) #outputs <class 'float'>
+```
