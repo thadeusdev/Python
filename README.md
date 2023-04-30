@@ -177,3 +177,20 @@ a = 3
 b = float(a)
 print(b) # => 3.0
 ```
+
+## Comparison Operations
+<img src="./images/chip.png" style="width: 400px" />
+
+🌟 the Boolean data type has one of two possible values: True or False
+
+🌟 a comparison operation always results in a Boolean.
+```
+# the result of comparison operators is either "True" or "False"
+print(30 < 25)
+print(5 < 9)
+print(50 > 100)
+
+# Boolean is a data type that has one of two possible values: True or False.
+print(type(5 < 9))
+print(type(50 > 100))
+```
