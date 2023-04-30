@@ -247,3 +247,33 @@ print("blocks")
 
 # Another way to represent an algorithm is with pseudocode. Pseudocode is a simplified language that is a bit closer to a programming language.
 ```
+
+## For Loops
+<img src="./images/For-Loops.png" style="height:200px" />
+
+🌟 you can implement iteration into your programs with the for loop
+
+🌟 the initial loop statement must be followed by a colon : symbol
+
+🌟 the code that gets repeated must be indented. 
+```
+#Define the number of iterations
+for i in range(3):
+  #Statement that gets repeated
+  print("Hello") # => prints Hello 3x
+
+for i in range(100):
+  print("Hello") # => prints Hello 100x
+
+for i in range(10):
+  print(i) # => prints 0 - 9
+
+for i in range(5):
+    print("Congrats!") # => prints Congrats! 5x
+
+for num in range(5):
+print("Coding is fun!") # => prints error bcz-the code that gets repeated must be indented
+
+for num in range(6)
+  print(num) # => prints error bcz-missing colon : symbol
+```
