@@ -158,3 +158,22 @@ print(type(city)) #outputs <class 'str'>
 print(type(age)) #outputs <class 'int'>
 print(type(balance)) #outputs <class 'float'>
 ```
+## Data Conversion
+🌟 you can change the data type of a value with `int()`, `float()` and `str()`
+
+🌟 there are `implicit` and `explicit` data type conversions in Python
+
+🌟 str(), int(), float() instructions are explicit conversions.
+```
+birth_year = input()
+print(type(birth_year)) # => <class 'str'>
+
+x = "55" #x is a string
+y = int(x) #y is an integer
+
+height = int(input())
+
+a = 3
+b = float(a)
+print(b) # => 3.0
+```
