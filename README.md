@@ -290,3 +290,36 @@ while seats > 0: # seat available?
   print("Sell ticket") # ticket sold
   seats = seats - 1 # number of seats updated
 ```
+
+## Conditional Statements
+🌟 if-else statements are used to implement selection into your programs
+
+🌟 the colon : symbol and the use of indentation are needed to prevent errors.
+```
+#sets the value of age
+age = 22
+if age >= 18:
+  # executed only if customer is over-age
+  print("Regular price") 
+else:
+  #executed only if age is less than 18
+  print("Discount")
+
+age = 30
+if age >= 18:
+  print("Regular price")
+else:
+  print("Discount")
+print("Proceed to payment")
+
+is_student = False
+age = 16
+print(is_student and (age < 18))
+
+age = 32
+is_student = True
+if age < 18 or is_student:
+  print("Discount")
+else: 
+  print("Regular price")
+```
