@@ -277,3 +277,16 @@ print("Coding is fun!") # => prints error bcz-the code that gets repeated must b
 for num in range(6)
   print(num) # => prints error bcz-missing colon : symbol
 ```
+
+## While Loops
+🌟 you can implement iteration into your programs with the `while loop`
+
+🌟 `counters` keep track of the number of iterations and avoid infinite loops
+
+🌟 `indentation` and the `colon : symbol` are required for the code to run.
+```
+seats = 500 # initial number of seats
+while seats > 0: # seat available?
+  print("Sell ticket") # ticket sold
+  seats = seats - 1 # number of seats updated
+```
